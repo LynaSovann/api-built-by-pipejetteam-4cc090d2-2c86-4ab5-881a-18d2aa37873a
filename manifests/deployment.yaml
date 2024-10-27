@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: api-built-by-pipejetteam-4cc090d2-2c86-4ab5-881a-18d2aa37873a-container
-          image: pipejet/sovannlyna-api-built-by-pipejetteam:1
+          image: pipejet/sovannlyna-api-built-by-pipejetteam:2
           ports:
             - containerPort: 8080
