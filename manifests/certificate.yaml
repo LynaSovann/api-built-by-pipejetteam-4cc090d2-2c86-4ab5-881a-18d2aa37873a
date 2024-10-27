@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: api-built-by-pipejetteam-4cc090d2-2c86-4ab5-881a-18d2aa37873a-certificate
+  namespace: api-built-by-pipejetteam-4cc090d2-2c86-4ab5-881a-18d2aa37873a
+spec:
+  secretName: api-built-by-pipejetteam-4cc090d2-2c86-4ab5-881a-18d2aa37873a-secret-tls
+  commonName: sovannlyna-api-built-by-pipejetteam.assessify.org
+  dnsNames:
+  - sovannlyna-api-built-by-pipejetteam.assessify.org
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
